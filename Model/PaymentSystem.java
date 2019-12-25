@@ -9,6 +9,6 @@ package sports.management.system;
  *
  * @author giray-kezer
  */
-public class TrainingCenter {
+public class PaymentSystem {
     
 }

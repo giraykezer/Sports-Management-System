@@ -9,6 +9,17 @@ package sports.management.system;
  *
  * @author giray-kezer
  */
-public class TrainingCenter {
+public class SportManagement {
+
+    /**
+     * @param args the command line arguments
+     */
+    int staffId;
+    String[] staffs = {""};
+    
+    public static void addStaff(String st)
+    {
+        
+    }
     
 }

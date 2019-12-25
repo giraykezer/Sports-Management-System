@@ -9,6 +9,17 @@ package sports.management.system;
  *
  * @author giray-kezer
  */
-public class TrainingCenter {
+public interface FacilitySystem {
+    String[] events = {""};
+    
+    
+    public void cleanFacility();
+    
+    public void prepareBeforeEvents();
+    
+    public void prepareAfterEvents();
+    
+    public void scheduleEvent();
+    
     
 }
