@@ -1,19 +1,35 @@
-import Presentation.*;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sports.management.system;
 
-public abstract class Venue implements FacilitySystem {
+/**
+ *
+ * @author giray-kezer
+ */
 
-    private String venueName;
+    public class Venue implements FacilitySystem{
 
-    public Venue() {
-        venueName = "";
+    @Override
+    public void cleanFacility() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    public Venue(String venueName) {
-        this.venueName = venueName;
+
+    @Override
+    public void prepareBeforeEvents() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    public void setVenueName(String venueName) {
-        this.venueName = venueName;
+
+    @Override
+    public void prepareAfterEvents() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    public String getVenueName() {
-        return venueName;
+
+    @Override
+    public void scheduleEvent() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 }
